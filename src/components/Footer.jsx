@@ -4,42 +4,54 @@ import { LuConstruction } from 'react-icons/lu'
 import { MdBoy, MdConstruction } from 'react-icons/md'
 import { deliveryboy, footer } from '../assets'
 import './Styles/Footer.css'
-import { FaFacebookSquare, FaInstagram, FaPinterest, FaTwitter } from 'react-icons/fa'
+import { FaWeixin} from 'react-icons/fa'
+import {TbBrandTiktok} from "react-icons/tb";
+import {XiaohongshuIcon} from "/src/components/Xiaohongshu.jsx"
+
+
 function Footer() {
     return (
         <div>
             <div className='footer'>
 
                 <div className='footer-list list-1'>
-                    <h2  className="logo">Foodie.</h2>
-                    <p>Financial experts support or help you to to find out which way you can raise your funds more.</p>
+                    <h2  className="logo">WASP</h2>
+                    <p>社交媒体</p>
                     <div className='icons'>
-                        <h2><FaFacebookSquare /></h2>
-                        <h2><FaInstagram /></h2>
-                        <h2><FaTwitter /></h2>
-                        <h2><FaPinterest /></h2>
+                        <h2>
+                            <a href="https://www.douyin.com/user/MS4wLjABAAAAIBM4_Rjar-Go-KjrmrVQRWZYUCkUSkXAHVX4IQgnmrjJ21COVsQjWvx48TwIo03M" target="_blank" rel="noopener noreferrer">
+                                <TbBrandTiktok />
+                            </a>
+                        </h2>
+                        <h2>
+                            <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NDgyODM5Ng==&scene=110#wechat_redirect" target="_blank" rel="noopener noreferrer">
+                                <FaWeixin />
+                            </a>
+                        </h2>
+                        <h2>
+                            <a href="https://www.xiaohongshu.com/user/profile/6222c3fc00000000100097a7" target="_blank" rel="noopener noreferrer">
+                                <XiaohongshuIcon />
+                            </a>
+                        </h2>
                     </div>
                 </div>
 
                 <div className='footer-list'>
-                    <h2>Contact Info</h2>
-                    <p>+92 062 109-9222</p>
-                    <p>Info@YourGmail24.com</p>
-                    <p>153 Williamson Plaza, Maggieberg, MT 09514</p>
+                    <h2>联系方式</h2>
+                    <p>+86 0571-86089000</p>
+                    <p>微信公众号： 青蜂餐饮</p>
                 </div>
 
                 <div className='footer-list'>
-                    <h2>Opening Hours</h2>
-                    <p>Monday-Friday: 08:00-22:00</p>
-                    <p>Tuesday 4PM: Till Mid Night</p>
-                    <p>Saturday: 10:00-16:00</p>
+                    <h2>三维店营业时间</h2>
+                    <p>周一至周日 10：30 - 22：00</p>
+                    <p>春节假期休息详细见公众号</p>
                 </div>
 
                 <div className='footer-list'>
-                    <h2>Branches </h2>
-                    <p>Monday-Friday: 08:00-22:00</p>
-                    <p>Tuesday 4PM: Till Mid Night</p>
-                    <p>Saturday: 10:00-16:00</p>
+                    <h2>江滨一号店营业时间 </h2>
+                    <p>周一至周日 10：30 - 22：00</p>
+                    <p>春节假期休息详细见公众号</p>
                 </div>
 
             </div>

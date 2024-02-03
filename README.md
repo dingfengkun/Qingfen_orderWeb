@@ -1,6 +1,6 @@
-# Foodie - Restaurant Web App
+# Wasp- Restaurant Web App
 
-Welcome to Foodie, a dynamic restaurant web app with a variety of features to enhance the user experience. .
+Welcome to Wasp, a dynamic restaurant web app with a variety of features to enhance the user experience. .
 
 ## Features
 
@@ -17,7 +17,6 @@ And much more
 - **Framer Motion**
 - **CSS**
 
-![Foodie](./src/assets/Foodie.png)
 
 
 

@@ -61,6 +61,8 @@ import inc from './add.svg'
 import emptycart from './emptycart.gif'
 import deliveryboy from './delivery-boy.svg'
 import deliverybg from './delivery-banner-bg.png'
+import waspbg from './wasp-bg.jpg'
+import wasplog from './wasp-qlogo.png'
 export {
     deliveryboy,
     herobanner,herobannerbg,herobg,herobgshape,
@@ -76,5 +78,6 @@ export {
     burger1,burger2,burger3,burger4,burger5,burger6,burger7,
     drink1,drink2,drink3,drink4,drink5,drink6,
     sandwich1,sandwich2,
-    verified,carticon,del,inc,dec, emptycart,deliverybg
+    verified,carticon,del,inc,dec, emptycart,deliverybg,
+    waspbg,wasplog
 }
