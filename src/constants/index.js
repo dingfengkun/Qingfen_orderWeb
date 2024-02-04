@@ -1,4 +1,12 @@
-import { avatar1, avatar2, avatar3, blog1, blog2, blog3, burger1, burger2, burger3, burger4, burger5, burger6, burger7, drink1, drink2, drink3, drink4, picon1, picon2, picon4, picon5, pizza1, pizza2, pizza3, promo1, promo2, promo3, promo4, promo5, sandwich1, sandwich2 } from "../assets";
+import { avatar1, avatar2, avatar3, blog1, blog2, blog3,
+    burger1, burger2, burger3, burger4, burger5, burger6, burger7,
+    drink2, drink3, drink4,
+    picon1, picon2, picon4, picon5, pizza1, pizza2, pizza3, drink1,
+    promo3, promo4, promo5, sandwich1, sandwich2 ,
+    main1,main2,
+    salad1, salad2,
+    special1,special2,
+    dessert1,dessert2} from "../assets";
 
 export const navLinks = [
     {
@@ -26,38 +34,44 @@ export const navLinks = [
 export const catagory =[
     {
         id: 1,
-        title: "Soft Drinks",
+        title: "特色饮品",
         icon: picon2,
-        description: "Its is all about Drinks",
-        img: promo2
+        description: "Its is all about Special Drinks",
+        // img: promo2
+        img: drink1
     },
     {
         id: 2,
-        title: "Sandwich",
+        title: "开胃小吃与沙拉",
         icon: picon5,
-        description: "Its is all about Meat",
-        img: promo3
+        description: "Its is all about Food Entries and Salads",
+        // img: promo3
+        img: salad2
     },
     {
         id: 3,
-        title: "Burger",
+        title: "招牌特色",
         icon: picon4,
-        description: "Its is all about Burgers",
-        img: promo4
+        description: "Its is all about Special Food",
+        // img: promo4
+        img: special2
     },
     {
         id: 4,
-        title: "Pizza",
+        title: "经典主食",
         icon: picon1,
-        description: "Its is all about Pizza",
-        img: promo5,
+        description: "Its is all about Main Food",
+        // img: promo5,
+        img: main1,
+        width: "50px"
+
     },
     {
         id: 4,
-        title: "Pizza",
+        title: "独家甜品",
         icon: picon5,
-        description: "Its is all about Pizza",
-        img: promo1
+        description: "Its is all about Dessert",
+        img: dessert2
     }
 ]
 export const food =[

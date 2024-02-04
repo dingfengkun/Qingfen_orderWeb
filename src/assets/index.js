@@ -45,7 +45,7 @@ import burger4 from './burger4.png'
 import burger5 from './burger5.png'
 import burger6 from './burger6.png'
 import burger7 from './burger7.png'
-import drink1 from './drink1.png'
+import drink1 from './drink1.JPG'
 import drink2 from './drink2.png'
 import drink3 from './drink3.png'
 import drink4 from './drink4.png'
@@ -63,6 +63,14 @@ import deliveryboy from './delivery-boy.svg'
 import deliverybg from './delivery-banner-bg.png'
 import waspbg from './wasp-bg.jpg'
 import wasplog from './wasp-qlogo.png'
+import main1 from './main1.JPG'
+import main2 from  './main2.jpg'
+import dessert1 from './dessert1.JPG'
+import dessert2 from './dessert2.jpg'
+import special1 from './special1.JPG'
+import special2 from './Special2.JPG'
+import salad1 from './salad1.JPG'
+import salad2 from './salad2.JPG'
 export {
     deliveryboy,
     herobanner,herobannerbg,herobg,herobgshape,
@@ -79,5 +87,10 @@ export {
     drink1,drink2,drink3,drink4,drink5,drink6,
     sandwich1,sandwich2,
     verified,carticon,del,inc,dec, emptycart,deliverybg,
-    waspbg,wasplog
+    waspbg,wasplog,
+    main1,main2,
+    salad1,salad2,
+    special1,special2,
+    dessert1,dessert2
+
 }

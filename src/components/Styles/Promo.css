@@ -44,6 +44,13 @@
     width: 100%;
 }
 
+.cover-image {
+    width: 400px;    /* 设置图片宽度 */
+    height: 400px;   /* 设置图片高度 */
+    object-fit: cover; /* 裁剪并覆盖区域 */
+    object-position: center; /* 以图片中心为基准 */
+}
+
 @media (max-width: 768px) {
     .promo-container{
         padding-inline: 3.8rem;

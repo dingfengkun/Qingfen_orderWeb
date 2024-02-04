@@ -2,6 +2,7 @@
 
 Welcome to Wasp, a dynamic restaurant web app with a variety of features to enhance the user experience. .
 
+
 ## Features
 
 - **Dynamic Cart Functionality:** Easily add and remove items from your cart in real-time.
