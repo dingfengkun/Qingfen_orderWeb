@@ -71,7 +71,7 @@ import special1 from './special1.JPG'
 import special2 from './Special2.JPG'
 import salad1 from './salad1.JPG'
 import salad2 from './salad2.JPG'
-import logo2 from './wasp_logo.png'
+import logo2 from './wasplogo-white.png'
 export {
     deliveryboy,
     herobanner,herobannerbg,herobg,herobgshape,

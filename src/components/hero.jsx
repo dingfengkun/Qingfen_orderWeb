@@ -18,13 +18,13 @@ function Hero() {
     return (
         <div className='hero-container' style={containerStyle}>
             <div className='hero-info'>
-                <h6>吃喝玩乐</h6>
+                <h6>青蜂</h6>
                 <h1 className='hero-heading'>让生活充满仪式感!</h1>
                 <p className='hero-discription'>Food is any substance consumed to provide nutritional support for an organism.</p>
                 <button className='button'>现在下单</button>
             </div>
             <div  className='burger' style={burgerstyle}>
-                <img  src={logo2} width={800} />
+                <img  src={logo2} width={500} />
             </div>
         </div>
     )
