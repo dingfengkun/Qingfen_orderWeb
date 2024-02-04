@@ -61,8 +61,8 @@ import inc from './add.svg'
 import emptycart from './emptycart.gif'
 import deliveryboy from './delivery-boy.svg'
 import deliverybg from './delivery-banner-bg.png'
-import waspbg from './wasp-bg.jpg'
-import wasplog from './wasp-qlogo.png'
+import waspbg from './newpg2.jpeg'
+// import wasplog from './wasp-qlogo.png'
 import main1 from './main1.JPG'
 import main2 from  './main2.jpg'
 import dessert1 from './dessert1.JPG'
@@ -72,6 +72,7 @@ import special2 from './Special2.JPG'
 import salad1 from './salad1.JPG'
 import salad2 from './salad2.JPG'
 import logo2 from './wasplogo-white.png'
+
 export {
     deliveryboy,
     herobanner,herobannerbg,herobg,herobgshape,
@@ -88,7 +89,8 @@ export {
     drink1,drink2,drink3,drink4,drink5,drink6,
     sandwich1,sandwich2,
     verified,carticon,del,inc,dec, emptycart,deliverybg,
-    waspbg,wasplog,
+    waspbg,
+    // wasplog,
     main1,main2,
     salad1,salad2,
     special1,special2,

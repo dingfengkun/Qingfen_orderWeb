@@ -1,18 +1,20 @@
 h6{
     font-family: "Shadows Into Light", cursive;
-    color: lightseagreen;
+    /*color: lightseagreen;*/
+    color: white;
     font-size: 2.5rem;
 }
 .hero-heading{
     font-family: var(--font5);
     color: white;
     font-size: 4rem;
-    background-color: orange;
+    background-color: lightseagreen;
     margin-bottom: 1.2rem;
 }
 .hero-discription{
     font-family: var(--font6);
-    color: #87CEEB;
+    /*color: #87CEEB;*/
+    color: white;
     margin-bottom: 1rem;
 }
 .hero-info{
@@ -21,13 +23,22 @@ h6{
 }
 
 .hero-container{
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start; /* Align children to the start (left) */
+    justify-content: flex-end; /* Align children to the end (bottom) */
+    text-align: left;
     padding: 2rem;
     margin-top : 3rem;
 }
-
+.button {
+    position: absolute;
+    margin-bottom: 190px; /* Adjusts top margin */
+    margin-left: 200px; /* Adjusts left margin */
+/}
 
 @media (max-width: 768px) {
     .burger{
@@ -37,9 +48,15 @@ h6{
         align-items: center;
         justify-content: center;
         text-align: center;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: flex-start; !* Align children to the start (left) *!*/
+        /*justify-content: flex-end; !* Align children to the end (bottom) *!*/
+        /*text-align: left;*/
     }
     .hero-info>h1{
         font-size: 2.5rem;
+
     }
     .hero-container{
         padding: 1rem;
