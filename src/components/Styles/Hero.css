@@ -13,7 +13,7 @@ h6{
 }
 .hero-discription{
     font-family: var(--font6);
-    /*color: #87CEEB;*/
+    color: #87CEEB;
     color: white;
     margin-bottom: 1rem;
 }
@@ -23,22 +23,22 @@ h6{
 }
 
 .hero-container{
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align children to the start (left) */
-    justify-content: flex-end; /* Align children to the end (bottom) */
+    align-items: center;
+    justify-content: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: flex-start; !* Align children to the start (left) *!*/
+    /*justify-content: flex-end; !* Align children to the end (bottom) *!*/
     text-align: left;
     padding: 2rem;
     margin-top : 3rem;
 }
-.button {
-    position: absolute;
-    margin-bottom: 190px; /* Adjusts top margin */
-    margin-left: 200px; /* Adjusts left margin */
-/}
+/*.button {*/
+/*    position: absolute;*/
+/*    margin-bottom: 17vh; !* 17% of the viewport height *!*/
+/*    margin-left: 12vw; !* 10% of the viewport width *!*/
+/*/}*/
 
 @media (max-width: 768px) {
     .burger{
